@@ -10,7 +10,7 @@ images = []
 for file in os.listdir(path):
     name, ext = os.path.splitext(file)
 
-    if ext in ['.gif', '.png', '.jpg', '.jpeg','.jfif']:
+    if ext in ['.jpg']:
         file_name = path+"/"+file
                
         images.append(file_name)
