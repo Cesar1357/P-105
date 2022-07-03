@@ -25,3 +25,4 @@ for i in range(0,count-1):
     frame = cv2.imread(images[i])
     out.write(frame)
 out.release()
+print("Listo")
